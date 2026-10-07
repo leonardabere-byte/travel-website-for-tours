@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f7f6f1">
+  <meta name="description" content="Get in touch with Wild Cameroon to start planning a thoughtful, locally guided trip. Find useful travel details for Cameroon.">
+  <title>Contact &amp; Travel Details | Wild Cameroon</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div class="topline">A little further off the map. <span>Right where you belong.</span></div>
+  <header class="site-header"><nav class="nav shell" aria-label="Main navigation">
+    <a class="brand" href="index.html"><span class="brand-mark" aria-hidden="true">✳</span> WILD CAMEROON</a>
+    <button class="menu-toggle" type="button" aria-label="Open navigation menu" aria-expanded="false" aria-controls="nav-links">☰</button>
+    <div class="nav-links" id="nav-links"><a href="index.html">Home</a><a href="about.html">About</a><a href="services.html">Services</a><a aria-current="page" href="contact.html">Contact &amp; Details</a></div>
+    <a class="nav-cta" href="#contact-form">Plan your trip <span aria-hidden="true">↗</span></a>
+  </nav></header>
+  <main>
+    <section class="page-hero page-hero-contact"><div class="shell page-hero-inner"><p class="eyebrow">Let's get you out there</p><h1>Tell us what<br><em>moves you.</em></h1><p class="hero-copy">A place you've been dreaming of? A question about the journey? We'd love to hear from you.</p></div></section>
+    <section class="shell contact-layout">
+      <div class="contact-copy"><p class="eyebrow">Start a conversation</p><h2>Every good trip starts with a hello.</h2><p>Share your ideas, your travel dates, or just the places you can't stop thinking about. We'll help you figure out a good next step.</p><div class="contact-note"><span class="note-icon" aria-hidden="true">✳</span><div><strong>A note about this demo</strong><p>This contact form is a front-end example. It needs to be connected to an email service or booking system to deliver messages.</p></div></div></div>
+      <form class="contact-form" id="contact-form">
+        <label for="name">Your name</label><input id="name" name="name" type="text" autocomplete="name" placeholder="How should we address you?" required>
+        <label for="email">Email address</label><input id="email" name="email" type="email" autocomplete="email" placeholder="you@example.com" required>
+        <label for="journey">What are you interested in?</label><select id="journey" name="journey"><option value="">Choose a journey (optional)</option><option value="mountain">Mount Cameroon</option><option value="coast">Kribi Coast</option><option value="wildlife">Waza National Park &amp; Far North</option><option value="transport">Bus &amp; air transport</option><option value="custom">A custom trip</option></select>
+        <label for="message">Tell us a little more</label><textarea id="message" name="message" rows="5" placeholder="When are you thinking of travelling? Who's coming along? What would make it special?" required></textarea>
+        <button class="button button-dark" type="submit">Prepare my enquiry <span aria-hidden="true">↗</span></button>
+        <p class="form-note" id="form-note" role="status" aria-live="polite"></p>
+      </form>
+    </section>
+    <section class="details-section" id="travel-details"><div class="shell"><div class="section-head"><div><p class="eyebrow">A few helpful details</p><h2>Good to know before you go.</h2></div></div><div class="details-grid">
+      <article class="detail-card"><span class="detail-index">01</span><h3>Many climates</h3><p>Cameroon's regions vary widely. Pack for the places and activities in your itinerary, and check local conditions close to your travel dates.</p></article>
+      <article class="detail-card"><span class="detail-index">02</span><h3>Plan with local advice</h3><p>Routes, park access, and travel conditions can change. Confirm current guidance with local hosts and official travel advisories before setting out.</p></article>
+      <article class="detail-card"><span class="detail-index">03</span><h3>Take your time</h3><p>Distances and journey times can vary. Leave breathing room in your plans, especially when travelling between regions.</p></article>
+    </div></div></section>
+  </main>
+  <footer class="site-footer"><div class="shell"><div class="footer-top"><div class="footer-brand"><a class="brand" href="index.html"><span class="brand-mark" aria-hidden="true">✳</span> WILD CAMEROON</a><p>Thoughtful journeys, made with local people, across a country that has a little bit of everything.</p></div><div class="footer-links"><div class="footer-col"><strong>Explore</strong><a href="index.html">Home</a><a href="about.html">About</a><a href="services.html">Services</a></div><div class="footer-col"><strong>Plan</strong><a href="contact.html">Contact us</a><a href="#travel-details">Travel details</a></div></div></div><div class="footer-bottom"><span>© 2026 Wild Cameroon. Made for the curious.</span><span>Made with care, in Cameroon.</span></div></div></footer>
+  <div id="notice" class="notice" role="status" aria-live="polite"></div>
+</body>
+</html>
